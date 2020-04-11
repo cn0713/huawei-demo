@@ -1,0 +1,105 @@
+.header{
+    height: 41px;
+    padding: 18px 0 15px 0px;
+    line-height: 41px;
+}
+
+.header-left{
+    float: left;
+}
+
+.logo,.naver
+{
+    float: left;
+    position: relative;
+    margin-right: 30px;
+}
+
+.logo img{
+    width: 120px;
+    height: 36px;
+    margin-left: 10px;
+}
+
+.header em{
+    position: absolute;
+    top: 10px;
+    display: inline-block;
+    height: 18px;
+    width: 1px;
+    background-color: #000000;
+}
+
+.header li{
+    float: left;
+    padding-left: 20px;
+}
+
+.header a{
+    text-decoration: none;
+    color: #333333;
+    font-size: 16px;
+}
+
+.header a:hover{
+    color: #ca151d;
+}
+
+.header-right{
+    float: right;
+    margin-top: 6px;
+    position: relative;
+}
+
+.header-right .header-right-radius{
+    width: 318px;
+    height: 28px;
+    background-color: #f0f0f0;
+    border-radius: 15px;
+    border:1px solid #f0f0f0;
+}
+
+.header-right .header-right-radius:hover{
+    border-color: #c9c9c9;
+}
+
+.header-right .text,
+.header-right .button{
+    float: left;
+    border: none;
+    width: 272px;
+    height: 28px;
+    line-height: 28px;
+    background-color: transparent;
+    padding-left: 12px;
+    outline: none;
+}
+
+.header-right .button{
+    width: 33px;
+    cursor: pointer;
+    padding: 0 5px 5px 5px;
+}
+
+.header-right .button:hover{
+    color: #787878;
+}
+
+.header-right .header-right-main{
+    position: absolute;
+    right: 31px;
+    bottom: -5px;
+}
+
+.header-right-main a{
+    color: #999999;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+

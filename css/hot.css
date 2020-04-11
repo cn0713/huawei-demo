@@ -1,0 +1,111 @@
+
+.hot{
+    position: relative;
+    min-width: 1200px;
+}
+
+.hot .hot-img{
+    height: 450px;
+}
+
+.hot-img li{
+    height: 450px;
+    display: none;
+    animation: hot-img 50s steps(1,end) infinite; 
+}
+
+@keyframes hot-img{
+    0%{background: url("https://res.vmallres.com/pimages//pages/adsImages/go391l0MdPXcmjaDkcWo.jpg") 50% 0px no-repeat;display: block;}
+    9%{background: url("https://res.vmallres.com/pimages//pages/adsImages/go391l0MdPXcmjaDkcWo.jpg") 50% 0px no-repeat;display: block;}
+    18%{background: url("https://res.vmallres.com/pimages//pages/adsImages/1hnEQuDoNRC0buB0CpRn.jpg") 50% 0px no-repeat;display: block;}
+    27%{background: url("https://res.vmallres.com/pimages//pages/adsImages/OSzCJRnXo2SMFQiNxItD.jpg") 50% 0px no-repeat;display: block;}
+    36%{background: url("https://res.vmallres.com/pimages//pages/adsImages/y35qko23Knw9JQ3wSGKD.jpg") 50% 0px no-repeat;display: block;}
+    45%{background: url("https://res.vmallres.com/pimages//pages/adsImages/nAD5fQ1yIWXI2FFx2JTg.jpg") 50% 0px no-repeat;display: block;}
+    54%{background: url("https://res.vmallres.com/pimages//pages/adsImages/e7D3vOHU87Blv6I1Q4FE.jpg") 50% 0px no-repeat;display: block;}
+    63%{background: url("https://res.vmallres.com/pimages//pages/adsImages/cP2N0oVwH0dJs4mHfTed.jpg") 50% 0px no-repeat;display: block;}
+    72%{background: url("https://res.vmallres.com/pimages//pages/adsImages/abG0zHBhP2kNE4qNOsPY.jpg") 50% 0px no-repeat;display: block;}
+    81%{background: url("https://res.vmallres.com/pimages//pages/adsImages/4OCcDAaJLTG8NJyU1hhr.jpg") 50% 0px no-repeat;display: block;}
+    90%{background: url("https://res.vmallres.com/pimages//pages/adsImages/RzcDG6FzJXKGWwQGmKh4.jpg") 50% 0px no-repeat;display: block;}
+    100%{background: url("https://res.vmallres.com/pimages//pages/adsImages/RzcDG6FzJXKGWwQGmKh4.jpg") 50% 0px no-repeat;display: block;}
+}
+
+
+.hot-img li:nth-child(1){ 
+    background: url("https://res.vmallres.com/pimages//pages/adsImages/go391l0MdPXcmjaDkcWo.jpg") 50% 0px no-repeat;
+    display: block;
+}
+.hot-img li:nth-child(2){ 
+    background: url("https://res.vmallres.com/pimages//pages/adsImages/1hnEQuDoNRC0buB0CpRn.jpg") 50% 0px no-repeat;
+}
+.hot-img li:nth-child(3){ 
+    background: url("https://res.vmallres.com/pimages//pages/adsImages/OSzCJRnXo2SMFQiNxItD.jpg") 50% 0px no-repeat;
+}
+.hot-img li:nth-child(4){ 
+    background: url("https://res.vmallres.com/pimages//pages/adsImages/y35qko23Knw9JQ3wSGKD.jpg") 50% 0px no-repeat;
+}
+.hot-img li:nth-child(5){ 
+    background: url("https://res.vmallres.com/pimages//pages/adsImages/nAD5fQ1yIWXI2FFx2JTg.jpg") 50% 0px no-repeat;
+}
+.hot-img li:nth-child(6){ 
+    background: url("https://res.vmallres.com/pimages//pages/adsImages/e7D3vOHU87Blv6I1Q4FE.jpg") 50% 0px no-repeat;
+}
+.hot-img li:nth-child(7){ 
+    background: url("https://res.vmallres.com/pimages//pages/adsImages/cP2N0oVwH0dJs4mHfTed.jpg") 50% 0px no-repeat;
+}
+.hot-img li:nth-child(8){ 
+    background: url("https://res.vmallres.com/pimages//pages/adsImages/abG0zHBhP2kNE4qNOsPY.jpg") 50% 0px no-repeat;
+}
+.hot-img li:nth-child(9){ 
+    background: url("https://res.vmallres.com/pimages//pages/adsImages/4OCcDAaJLTG8NJyU1hhr.jpg") 50% 0px no-repeat;
+
+}
+.hot-img li:nth-child(10){
+    background: url("https://res.vmallres.com/pimages//pages/adsImages/RzcDG6FzJXKGWwQGmKh4.jpg") 50% 0px no-repeat;
+}
+
+.hot-dot{
+    position: absolute;
+    top: 90%;
+    left: 42%;
+    width: 500px;
+    height: 20px;
+}
+
+.hot-dot li{
+    float: left;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    margin: 2px 5px 0;
+}
+.hot-dot ul{
+    position: relative;
+}
+
+.hot-dot .hot-dot-white{
+    position: absolute;
+    left: 0px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    animation:  hot-dot-white 50s steps(1,end) infinite;
+    /* transition: left 1s linear;  */
+    
+}
+
+@keyframes hot-dot-white{
+    0%{left: 0;}
+    9%{left: 0;}
+    18%{left: 27px;}
+    27%{left: 54px;}
+    36%{left: 81px;}
+    45%{left: 108px;}
+    54%{left: 135px;}
+    63%{left: 162px;}
+    72%{left: 189px;}
+    81%{left: 216px;}
+    90%{left: 243px;}
+    100%{left: 243px;}
+}

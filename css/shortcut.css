@@ -1,0 +1,122 @@
+.shortcut{
+    height: 37.5px;
+    background-color: #f9f9f9;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    /* background-color: red; */
+}
+
+.shortcut .nav-left{
+    float: left;
+}
+
+.shortcut ul
+{
+    list-style: none;
+    line-height: 36px;
+}
+/* 
+    清除父元素与子元素之前的边距
+*/
+.container::before
+{
+    content: "";
+    display: table;
+}
+
+.shortcut li
+{
+    position: relative;
+    float: left;
+    padding: 0 8px;
+    
+}
+
+.nav-right li{
+    padding: 0 12px;
+}
+
+.shortcut li::before
+{
+    position: absolute;
+    top: 15px;
+    left: 0;
+    content: " ";
+    display: block;
+    height: 10px;
+    width: 1px;
+    background-color: #d3d3d3;
+}
+
+.nav-left li:first-child::before,
+.nav-right li:first-child::before,
+.nav-right li:last-of-type::before
+{
+    display: none;
+}
+
+.shortcut a
+{
+    color: #a4a4a4;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.shortcut a:hover   
+{
+    color: #ca151d;
+}
+
+.nav-dropdown{
+    position: relative;
+}
+
+.nav-dropdown::before{
+    position: absolute;
+    top: -10px;
+    left: 47px;
+    font-family: "iconfont" !important;
+    font-size: 12px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\e616";
+}
+
+.nav-dropdown:hover::before
+{
+    content: "\e81b";
+}
+
+.shortcut .nav-right{
+    float: right;
+    position: relative;
+}
+
+.nav-right .nav-dropdown::before{
+    position: absolute;
+    left: 47px;
+}
+
+.nav-right .nav-sopping::before{
+    font-family: "iconfont" !important;
+    content: "\e607";
+    display: inline-block;
+    font-size: 12px;
+    display: block;
+    position: absolute;
+    left: -1px;
+}
+
+.nav-right li:last-of-type{
+    background-color: #f2f2f2; 
+}
+
+.nav .nav-white:hover
+{
+    background-color: #ffffff;
+}
+

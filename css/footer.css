@@ -1,0 +1,168 @@
+.footer{
+    height: 370px;
+    background-color: #f9f9f9;
+    margin-top: 100px;
+}
+
+.footer .footer-header{
+    height: 82px;
+    
+}
+
+.footer-header ul{
+    line-height: 82px;
+}
+
+.footer-header li{ 
+    float: left;
+    width: 25%;
+    font-size: 18px; 
+}
+
+.footer-header a{
+    height: 40px;
+}
+
+
+.footer-header i{
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    margin-right: 20px;
+    color: #f30000;
+}
+
+.footer-header span{
+    position: absolute;
+    display: inline-block;
+    color: #3a3a3a;
+}
+
+.footer .footer-content{
+    height: 160px;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 23px 0 4px;
+}
+
+.footer-content-left{
+    width: 920px;
+    height: 155px;
+    border-right: 1px solid #e5e5e5;
+}
+.footer-content-left dl{
+    float: left;
+    width: 16.666667%
+}
+
+.footer-content-left h4{
+    margin-bottom: 15px;
+}
+
+.footer-content-left a{
+    font-size: 12px;
+    margin-bottom: 7px;
+    color: #777777;
+}
+
+.footer-content-ritht {
+    float: right;
+}
+
+.footer-content-ritht dt{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.footer-content-ritht .footer-content-ritht-kf{
+    display: inline-block;
+    width: 172px;
+    height: 34px;
+    line-height: 34px;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 17px;
+}
+
+.footer-content-ritht i{
+    margin-right: 10px;
+}
+ 
+.footer-content-ritht-bottom p{
+    float: left;
+}
+
+.footer-content-ritht-bottom ul{
+    float: left;
+}
+
+.footer-content-ritht-bottom li{
+    float: left;
+    margin-right: 15px;
+    
+}
+
+.footer-content-ritht-bottom a{
+    color: #000000;
+}
+
+.footerbottom{
+    margin: 20px auto;
+}
+
+.footerbottom-logo{
+    float: left;
+}
+
+.footerbottom-logo img{
+    display: inline-block;
+    width: 82px;
+    height: 20px;
+}
+
+.footerbottom .fl{
+    float: left;
+    margin-left: 10px;
+}
+
+.footer-warrant-link{
+    display: block;
+    margin-bottom: 25px;
+}
+
+.footer-warrant-link li{
+    float: left;
+}
+
+.footer-warrant-link a{
+    font-size: 12px;
+    color: #777777;
+    margin-right: 6px;
+    padding-right: 6px;
+    border-right: 1px solid #d3d3d3;
+}
+
+.footer-warrant-link .end{
+    border: none;
+}
+
+
+.fl-f1{
+    margin-bottom: 35px;
+}
+
+.fl-f1 a{
+    float: left;
+    font-size: 12px;
+    color: #999999;
+    margin-right: 6px;
+}
+
+.fl-f2{
+    font-size: 12px;
+    color: #999999;
+}
+
+.fr{
+    float: right;
+}
